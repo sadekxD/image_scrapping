@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
-import csv
 
 
 src = requests.get("https://mangapark.net/")
