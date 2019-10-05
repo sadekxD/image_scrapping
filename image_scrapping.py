@@ -8,9 +8,8 @@ parent = soup.find('article')
 
 
 dict = []
-# file = open('fiel.jpg', 'wb')
-for i in parent.find_all('img'):
-	dict.append('https:'+i.get('src'))
+for link in parent.find_all('img'):
+	dict.append('https:'+link.get('src'))
 
 
 for i in range(len(dict)):
