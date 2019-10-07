@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import random
-
 
 src = requests.get("https://pokemondb.net/pokedex/national")
 soup = BeautifulSoup(src.content, 'lxml')
