@@ -1,2 +1,3 @@
 # image_scrapping
-# download_image
+# download all pokemon image..............................it was for fun..
+
